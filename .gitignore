@@ -17,6 +17,9 @@ grpc-client/.mvn
 greet-proto/.idea/
 grpc-client/.idea/
 grpc-client/.mvn/
+grpc-client/HELP.md
+grpc-client/mvnw.cmd
+grpc-client/mvnw
 
 # IntelliJ
 .idea/

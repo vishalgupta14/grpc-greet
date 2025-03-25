@@ -1,0 +1,46 @@
+# Java build
+target/
+*.class
+
+# Maven
+.mvn/
+!**/src/**/mvnw
+!**/src/**/mvnw.cmd
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+release.properties
+buildNumber.properties
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# gRPC / protobuf
+**/generated/
+**/build/
+**/*.pb.go
+**/*.pb.cc
+**/*.pb.h
+**/*.pb.c
+**/*.pb.swift
+**/*.pb.rb
+**/*_pb2.py
+
+# Others
+*.jar
+*.war
+*.ear
+
+target/
+.idea/
+*.iml

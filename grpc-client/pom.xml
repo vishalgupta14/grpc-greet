@@ -53,7 +53,7 @@
 		<!-- gRPC Proto (shared/generated) -->
 		<dependency>
 			<groupId>com.grpc</groupId>
-			<artifactId>greet-proto</artifactId>
+			<artifactId>grpc-greet-parent</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 

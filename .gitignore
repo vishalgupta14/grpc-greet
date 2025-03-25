@@ -20,6 +20,11 @@ grpc-client/.mvn/
 grpc-client/HELP.md
 grpc-client/mvnw.cmd
 grpc-client/mvnw
+grpc-server/.idea/
+grpc-server/.mvn/
+grpc-server/HELP.md
+grpc-server/mvnw.cmd
+grpc-server/mvnw
 
 # IntelliJ
 .idea/

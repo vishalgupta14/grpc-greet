@@ -11,6 +11,13 @@ dependency-reduced-pom.xml
 release.properties
 buildNumber.properties
 
+greet-proto/.idea
+grpc-client/.idea
+grpc-client/.mvn
+greet-proto/.idea/
+grpc-client/.idea/
+grpc-client/.mvn/
+
 # IntelliJ
 .idea/
 *.iml

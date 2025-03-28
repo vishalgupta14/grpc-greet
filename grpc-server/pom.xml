@@ -39,20 +39,25 @@
 		<dependency>
 			<groupId>io.grpc</groupId>
 			<artifactId>grpc-netty-shaded</artifactId>
+			<version>1.56.0</version>
 		</dependency>
+
 		<dependency>
 			<groupId>io.grpc</groupId>
 			<artifactId>grpc-protobuf</artifactId>
+			<version>1.56.0</version>
 		</dependency>
+
 		<dependency>
 			<groupId>io.grpc</groupId>
 			<artifactId>grpc-stub</artifactId>
+			<version>1.56.0</version>
 		</dependency>
 
 		<!-- Our generated proto module -->
 		<dependency>
 			<groupId>com.grpc</groupId>
-			<artifactId>grpc-greet-parent</artifactId>
+			<artifactId>greet-proto</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 
@@ -60,6 +65,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.grpc</groupId>
+			<artifactId>greet-proto</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 
